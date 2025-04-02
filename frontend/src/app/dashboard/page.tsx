@@ -449,11 +449,9 @@ export default function Dashboard() {
                       </div>
                       <div style={styles.paymentInfo} className="ml-4">
                         <div style={styles.paymentName} className="text-sm font-medium text-gray-900 dark:text-white">{subscription.name}</div>
-                        <div style={{...styles.badge}} className="mt-1 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300">
-                        {subscription.category}
-                      </div>
-
-
+                        <div style={{display: 'inline-block', ...styles.badge}} className="mt-1 inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300">
+                          {subscription.category}
+                        </div>
                       </div>
                     </div>
                     <div className="flex items-center">
