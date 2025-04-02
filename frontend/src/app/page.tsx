@@ -7,7 +7,7 @@ export default function Home() {
       <main className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-white">
-            月額サブスクリプション支援アプリ
+            クリエイター支援ファンアプリ『FanRise』
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             あなたのサブスクリプションを簡単に管理し、支出を最適化するためのツールです。
