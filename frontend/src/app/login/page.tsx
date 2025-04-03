@@ -229,10 +229,6 @@ export default function Login() {
             <button
               type="submit"
               disabled={isLoading}
-              style={{
-                ...styles.button,
-                ...(isLoading ? {} : styles.buttonHover)
-              }}
               className="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700"
             >
               {isLoading && (
