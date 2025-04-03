@@ -54,6 +54,7 @@ export default function Login() {
       color: '#1a202c',
       textAlign: 'center',
       marginBottom: '0.5rem'
+    } as React.CSSProperties,
     },
     subtitle: {
       fontSize: '1rem',
