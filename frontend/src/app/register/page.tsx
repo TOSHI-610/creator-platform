@@ -112,7 +112,7 @@ export default function Register() {
               />
             </div>
             
-            <div style={styles.checkboxContainer} className="flex items-start mb-6">
+            <div className="flex items-start mb-6">
               <input
                 id="terms"
                 type="checkbox"
