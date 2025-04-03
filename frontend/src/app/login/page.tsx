@@ -1,4 +1,6 @@
-'use client';
+export const dynamic = 'force-dynamic';
+
+use client';
 
 import { useState } from 'react';
 import Link from 'next/link';
@@ -37,6 +39,7 @@ export default function Login() {
       alignItems: 'center',
       justifyContent: 'center',
       padding: '1rem'
+      } as CSSProperties,
     },
     card: {
       width: '100%',
@@ -45,9 +48,11 @@ export default function Login() {
       borderRadius: '1rem',
       boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
       overflow: 'hidden'
+      } as CSSProperties,
     },
     cardContent: {
       padding: '2rem'
+    } as CSSProperties,
     },
     title: {
       fontSize: '1.875rem',
@@ -55,12 +60,14 @@ export default function Login() {
       color: '#1a202c',
       textAlign: 'center',
       marginBottom: '0.5rem'
+    } as CSSProperties,
     },
     subtitle: {
       fontSize: '1rem',
       color: '#4a5568',
       textAlign: 'center',
       marginBottom: '2rem'
+    } as CSSProperties,
     },
     errorBox: {
       marginBottom: '1rem',
@@ -69,9 +76,11 @@ export default function Login() {
       borderRadius: '0.5rem',
       color: '#B91C1C',
       fontSize: '0.875rem'
+    } as CSSProperties,
     },
     formGroup: {
       marginBottom: '1.5rem'
+      } as CSSProperties,
     },
     label: {
       display: 'block',
@@ -79,6 +88,7 @@ export default function Login() {
       fontWeight: '500',
       color: '#4a5568',
       marginBottom: '0.5rem'
+      } as CSSProperties,
     },
     input: {
       width: '100%',
@@ -88,6 +98,7 @@ export default function Login() {
       fontSize: '1rem',
       transition: 'all 0.2s',
       outline: 'none'
+      } as CSSProperties,
     },
     forgotPassword: {
       fontSize: '0.875rem',
@@ -98,18 +109,22 @@ export default function Login() {
       textAlign: 'right',
       marginTop: '-1.5rem',
       marginBottom: '1rem'
+      } as CSSProperties,
     },
     checkboxContainer: {
       display: 'flex',
       alignItems: 'center',
       marginBottom: '1.5rem'
+      } as CSSProperties,
     },
     checkbox: {
       marginRight: '0.5rem'
+      } as CSSProperties,
     },
     checkboxLabel: {
       fontSize: '0.875rem',
       color: '#4a5568'
+      } as CSSProperties,
     },
     button: {
       width: '100%',
@@ -125,26 +140,31 @@ export default function Login() {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center'
+      } as CSSProperties,
     },
     buttonHover: {
       backgroundColor: '#4338CA'
+      } as CSSProperties,
     },
     spinner: {
       animation: 'spin 1s linear infinite',
       marginRight: '0.5rem',
       height: '1.25rem',
       width: '1.25rem'
+      } as CSSProperties,
     },
     footer: {
       marginTop: '2rem',
       textAlign: 'center',
       fontSize: '0.875rem',
       color: '#4a5568'
+      } as CSSProperties,
     },
     link: {
       color: '#4F46E5',
       textDecoration: 'none',
       fontWeight: '500'
+      } as CSSProperties,
     }
   };
 
