@@ -23,7 +23,6 @@
     },
     // 以下の設定を追加（この位置に追加）
     "noImplicitAny": false,
-    "suppressImplicitAnyIndexErrors": true,
     "jsxImportSource": "react"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
