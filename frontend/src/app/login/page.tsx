@@ -36,6 +36,7 @@ export default function Login() {
       alignItems: 'center',
       justifyContent: 'center',
       padding: '1rem'
+    } as React.CSSProperties,
     },
     card: {
       width: '100%',
@@ -44,9 +45,11 @@ export default function Login() {
       borderRadius: '1rem',
       boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
       overflow: 'hidden'
+    } as React.CSSProperties,
     },
     cardContent: {
       padding: '2rem'
+    } as React.CSSProperties,
     },
     title: {
       fontSize: '1.875rem',
@@ -61,6 +64,7 @@ export default function Login() {
       color: '#4a5568',
       textAlign: 'center',
       marginBottom: '2rem'
+    } as React.CSSProperties,
     },
     errorBox: {
       marginBottom: '1rem',
@@ -69,9 +73,11 @@ export default function Login() {
       borderRadius: '0.5rem',
       color: '#B91C1C',
       fontSize: '0.875rem'
+    } as React.CSSProperties,
     },
     formGroup: {
       marginBottom: '1.5rem'
+    } as React.CSSProperties,
     },
     label: {
       display: 'block',
@@ -79,6 +85,7 @@ export default function Login() {
       fontWeight: '500',
       color: '#4a5568',
       marginBottom: '0.5rem'
+    } as React.CSSProperties,
     },
     input: {
       width: '100%',
@@ -88,6 +95,7 @@ export default function Login() {
       fontSize: '1rem',
       transition: 'all 0.2s',
       outline: 'none'
+    } as React.CSSProperties,
     },
     forgotPassword: {
       fontSize: '0.875rem',
@@ -98,18 +106,22 @@ export default function Login() {
       textAlign: 'right',
       marginTop: '-1.5rem',
       marginBottom: '1rem'
+    } as React.CSSProperties,
     },
     checkboxContainer: {
       display: 'flex',
       alignItems: 'center',
       marginBottom: '1.5rem'
+    } as React.CSSProperties,
     },
     checkbox: {
       marginRight: '0.5rem'
+    } as React.CSSProperties,
     },
     checkboxLabel: {
       fontSize: '0.875rem',
       color: '#4a5568'
+    } as React.CSSProperties,
     },
     button: {
       width: '100%',
@@ -125,26 +137,31 @@ export default function Login() {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center'
+    } as React.CSSProperties,
     },
     buttonHover: {
       backgroundColor: '#4338CA'
+    } as React.CSSProperties,
     },
     spinner: {
       animation: 'spin 1s linear infinite',
       marginRight: '0.5rem',
       height: '1.25rem',
       width: '1.25rem'
+    } as React.CSSProperties,
     },
     footer: {
       marginTop: '2rem',
       textAlign: 'center',
       fontSize: '0.875rem',
       color: '#4a5568'
+    } as React.CSSProperties,
     },
     link: {
       color: '#4F46E5',
       textDecoration: 'none',
       fontWeight: '500'
+    } as React.CSSProperties,
     }
   };
 
